@@ -1,0 +1,23 @@
+{
+  "name": "bootstrapPortfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "port.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhirsch1/bootstrapPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhirsch1/bootstrapPortfolio/issues"
+  },
+  "homepage": "https://github.com/lhirsch1/bootstrapPortfolio#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
