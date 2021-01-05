@@ -12,6 +12,19 @@ $(document).ready(function () {
 
     const projects = [
         {
+            title: `BrewBuzz`,
+            subtitle: `Craft Brewing Culture Connector`,
+            text: `Find and review breweries near you or across the country`,
+            image: `./images/brewbuzz_demo.gif`,
+            link: `https://www.brewbuzz.beer`
+        },
+        {
+            title: `SquigglePig`,
+            subtitle: `Multiplayer Drawing Game`,
+            text: `Grab some friends and start drawing!`,
+            link: `https://radiant-escarpment-81079.herokuapp.com/`
+        },
+        {
             title: `No Capes`,
             subtitle: `Micro-charitability app`,
             text: `Complete small acts of charity in Minneapolis to earn badges and points!`,
@@ -24,13 +37,7 @@ $(document).ready(function () {
             post-apocalyptic films from the 1970's and 1980's`,
             link: `https://lhirsch1.github.io/isodesolation`
         },
-        {
-            title: `WhatsOn`,
-            subtitle: `Streaming Service Companion`,
-            text: `Get movie recommendations based on your video streaming
-            subscriptions`,
-            link: `https://lhirsch1.github.io/whatsOn/`
-        }
+       
     ]
 
 
@@ -38,7 +45,7 @@ $(document).ready(function () {
     console.log(projects.length);
     const content = $(`.content`)
     for (let i = 0; i < projects.length; i++) {
-        const colSm6 = $(`<div class='col-sm-6'>`);
+        const colSm6 = $(`<div class='col-sm'>`);
         const card = $(`<div class='card'>`);
         const cardBody = $(`<div class='card-body'>`);
         const cardTitle = $(`<h5 class='card-title'>`);
