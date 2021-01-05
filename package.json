@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lhirsch1/bootstrapPortfolio#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
